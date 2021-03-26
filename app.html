@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+       body
+       {
+          
+           color:dimgray;
+           background-color: black;
+
+        
+       } 
+       
+       .main
+       {
+           display: flex;
+           flex-direction: row;
+           flex-wrap: content;
+           justify-content:space-evenly;
+          position: relative;
+           max-height: 20rem;
+           flex-wrap: nowrap;
+           
+          
+          
+       }
+       
+       .one
+       {
+        background-color:#111;
+        text-align: center;
+        border: solid 1rem darkcyan;
+        box-shadow:
+    0 0 60px 30px #fff,  /* inner white */
+    0 0 70px 50px palevioletred, /* middle magenta */
+    0 0 70px 50px #0ff; /* outer cyan */
+        
+        transition: 0.8;
+        width: 22rem;
+        height: 25rem;
+         padding: 2%;
+       
+       
+       }
+       .one:hover
+       {
+        transform: scale(1.1);
+        justify-content: center;
+        background-color:black;
+        
+       }
+       .two:hover{
+        transform: scale(1.1);
+        background-color:black;
+       }
+       .three:hover
+       {
+        transform: scale(1.1);
+        background-color:black;
+       }
+       .one img:hover
+       {
+        transform: scale(1.07);
+       }
+       .two img:hover{
+        transform: scale(1.07);
+       }
+       .three img:hover
+       {
+        transform: scale(1.07);
+       }
+       .two{
+        background-color: #111;
+        text-align: center;
+        border: solid 1rem darkcyan;
+        width: 22rem;
+        height: 25rem;
+        box-shadow:
+    0 0 60px 30px #fff,  /* inner white */
+    0 0 70px 50px palevioletred, /* middle magenta */
+    0 0 70px 50px #0ff; /* outer cyan */
+    padding: 2%;
+       }
+       .three
+       {
+        background-color: #111;
+        text-align: center;
+        border: solid 1rem darkcyan;
+        width: 22rem;
+        height: 25rem;
+        box-shadow:
+    0 0 60px 30px #fff,  /* inner white */
+    0 0 70px 50px teal, /* middle magenta */
+    0 0 70px 50px gray; /* outer cyan */
+    padding: 2%;
+       }
+       .one img
+       {
+
+      text-align: center;
+      max-width: 50%;
+      max-height: 50%;
+      border-radius: 100%;
+       }
+       .two img
+       {
+      text-align: center;
+       max-width: 50%;
+       max-height: 50%;
+       border-radius: 100%;
+
+       }
+       .three img
+       {
+        text-align: center;
+        max-width: 50%;
+        max-height: 50%;
+        border-radius: 100%;
+       }
+    </style>
+    <br><br><br><br><br>
+    <div class="main" >
+        
+        <div class="two" >
+         <img src="two.jpg.png">
+         <br>
+         <br>
+         <h1>EXPERIENCE</h1>
+        </div>
+       
+        <div class="three">
+        <img src="three.jpg.png">
+        <br>
+        <br>
+        <h1>PROJECTS</h1>
+        </div>
+        <div class="one">
+            <img src="one.jpg.png">
+            <br>
+            <br>
+            <h1>ACCOMPLISHMENTS</h1>
+            </div>
+
+
+    </div>
+</body>
+</html>
